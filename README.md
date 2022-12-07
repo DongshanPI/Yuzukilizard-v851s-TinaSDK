@@ -2,7 +2,9 @@
 
 Before using, please refer to this article to download the official Tina Linux image provided by Allwinner: 
 
-- https://v853.docs.aw-ol.com/en/study/study_3getsdk/
+- GoogleDriver https://drive.google.com/drive/folders/1_HAZRddR69hRMZAVrxFrPZXFFQiV3vE0?usp=share_link
+- BaiduYun: 
+
 
 ![image](https://user-images.githubusercontent.com/12003087/204969926-d6a11bcb-a8ac-40fd-add8-8049d0ae8046.png)
 
