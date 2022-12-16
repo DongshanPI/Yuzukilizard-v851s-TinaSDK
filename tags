@@ -1,0 +1,239 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCH	openwrt/target/v851s/v851s-lizard/Makefile	/^ARCH:=arm$/;"	m	language:Make
+ATO_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	20;"	d	language:C	file:
+BAD_BLK_MARK_POS1	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	678;"	d	language:C	file:
+BAD_BLK_MARK_POS2	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	679;"	d	language:C	file:
+BAD_BLK_MARK_POS3	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	680;"	d	language:C	file:
+BAD_BLK_MARK_POS4	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	681;"	d	language:C	file:
+BASE_ADDRESS	openwrt/target/v851s/generic/image/Makefile	/^BASE_ADDRESS:=0x40000000$/;"	m	language:Make
+BASE_ADDRESS	openwrt/target/v851s/generic/image/Makefile	/^BASE_ADDRESS=0x40000000$/;"	m	language:Make
+BASE_ADDRESS	openwrt/target/v851s/generic/image/Makefile	/^BASE_ADDRESS=0x40200000$/;"	m	language:Make
+BASE_ADDRESS	openwrt/target/v851s/generic/image/Makefile	/^BASE_ADDRESS=0x80000000$/;"	m	language:Make
+BOARD	openwrt/target/v851s/v851s-lizard/Makefile	/^BOARD:=v851s-lizard$/;"	m	language:Make
+BOARDNAME	openwrt/target/v851s/v851s-lizard/Makefile	/^BOARDNAME:=v851s-lizard$/;"	m	language:Make
+BOOTIMG_IMAGE_DATA	openwrt/target/v851s/generic/image/Makefile	/^BOOTIMG_IMAGE_DATA:=zImage$/;"	m	language:Make
+BOOTIMG_IMAGE_DATA	openwrt/target/v851s/generic/image/Makefile	/^BOOTIMG_IMAGE_DATA=Image$/;"	m	language:Make
+BOOTIMG_IMAGE_DATA	openwrt/target/v851s/generic/image/Makefile	/^BOOTIMG_IMAGE_DATA=bImage$/;"	m	language:Make
+BOOTIMG_NAME	openwrt/target/v851s/generic/image/Makefile	/^BOOTIMG_NAME:=boot.img$/;"	m	language:Make
+BOOTIMG_NAME	openwrt/target/v851s/generic/image/Makefile	/^BOOTIMG_NAME=boot-initramfs.img$/;"	m	language:Make
+COMP	openwrt/target/v851s/generic/image/Makefile	/^COMP:=none$/;"	m	language:Make
+COMP	openwrt/target/v851s/generic/image/Makefile	/^COMP=gzip$/;"	m	language:Make
+COMP	openwrt/target/v851s/generic/image/Makefile	/^COMP=lzo$/;"	m	language:Make
+CPU_SUBTYPE	openwrt/target/v851s/v851s-lizard/Makefile	/^CPU_SUBTYPE:=neon$/;"	m	language:Make
+CPU_TYPE	openwrt/target/v851s/v851s-lizard/Makefile	/^CPU_TYPE:=cortex-a7$/;"	m	language:Make
+DEFAULT_PACKAGES	openwrt/target/v851s/v851s-lizard/Makefile	/^DEFAULT_PACKAGES = base-files libc libgcc busybox$/;"	m	language:Make
+DSTECH_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	26;"	d	language:C	file:
+ENTRY_POINT	openwrt/target/v851s/generic/image/Makefile	/^ENTRY_POINT:=0x40008000$/;"	m	language:Make
+ENTRY_POINT	openwrt/target/v851s/generic/image/Makefile	/^ENTRY_POINT=0x40080000$/;"	m	language:Make
+ENTRY_POINT	openwrt/target/v851s/generic/image/Makefile	/^ENTRY_POINT=0x80008000$/;"	m	language:Make
+ETRON_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	24;"	d	language:C	file:
+FAT32_BLOCKS	openwrt/target/v851s/generic/image/Makefile	/^	FAT32_BLOCKS=$(shell echo $$(($(CONFIG_SUNXI_SD_BOOT_PARTSIZE)*1024*1024\/$(FAT32_BLOCK_SIZE))))$/;"	m	language:Make
+FAT32_BLOCK_SIZE	openwrt/target/v851s/generic/image/Makefile	/^FAT32_BLOCK_SIZE=1024$/;"	m	language:Make
+FEATURES	openwrt/target/v851s/v851s-lizard/Makefile	/^FEATURES:=fpu usb ext4 display rtc$/;"	m	language:Make
+FM_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	29;"	d	language:C	file:
+FORESEE_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	27;"	d	language:C	file:
+GD_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	19;"	d	language:C	file:
+HOOKS	openwrt/target/v851s/v851s-lizard/tina_busybox-init-base-files.mk	/^HOOKS := $(CURDIR)\/busybox-init-base-files_generate\/rootfs_hook_squash.sh$/;"	m	language:Make
+IMAGE_DATA	openwrt/target/v851s/generic/image/Makefile	/^IMAGE_DATA:=zImage$/;"	m	language:Make
+IMAGE_DATA	openwrt/target/v851s/generic/image/Makefile	/^IMAGE_DATA=Image.gz$/;"	m	language:Make
+IMAGE_DATA	openwrt/target/v851s/generic/image/Makefile	/^IMAGE_DATA=Image.lzo$/;"	m	language:Make
+IMAGE_NAME_SUFFIX	openwrt/target/v851s/generic/image/Makefile	/^	IMAGE_NAME_SUFFIX=_ramfs$/;"	m	language:Make
+IMAGE_NAME_SUFFIX	openwrt/target/v851s/generic/image/Makefile	/^	IMAGE_NAME_SUFFIX=_recovery$/;"	m	language:Make
+IMAGE_NAME_SUFFIX	openwrt/target/v851s/generic/image/Makefile	/^IMAGE_NAME_SUFFIX:=$/;"	m	language:Make
+Image	openwrt/target/v851s/generic/image/Makefile	/^define Image\/Build$/;"	m	language:Make
+Image	openwrt/target/v851s/generic/image/Makefile	/^define Image\/BuildKernel$/;"	m	language:Make
+Image	openwrt/target/v851s/generic/image/Makefile	/^define Image\/Build\/Initramfs$/;"	m	language:Make
+Image	openwrt/target/v851s/generic/image/Makefile	/^define Image\/InstallKernel$/;"	m	language:Make
+KB	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	12;"	d	language:C	file:
+KERNELNAME	openwrt/target/v851s/v851s-lizard/Makefile	/^KERNELNAME:=zImage dtbs$/;"	m	language:Make
+KERNEL_OFFSET	openwrt/target/v851s/generic/image/Makefile	/^KERNEL_OFFSET:=0x8000$/;"	m	language:Make
+KERNEL_OFFSET	openwrt/target/v851s/generic/image/Makefile	/^KERNEL_OFFSET=0x0$/;"	m	language:Make
+KERNEL_OFFSET	openwrt/target/v851s/generic/image/Makefile	/^KERNEL_OFFSET=0x8000$/;"	m	language:Make
+KERNEL_OFFSET	openwrt/target/v851s/generic/image/Makefile	/^KERNEL_OFFSET=0x80000$/;"	m	language:Make
+KERNEL_PATCHVER	openwrt/target/v851s/v851s-lizard/Makefile	/^KERNEL_PATCHVER:=4.9$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-rtl8189fs$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-rtl8189fs\/description$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-xr819s$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-xr819s-40M$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-xr819s-40M\/description$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-xr819s\/description$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-xr829$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-xr829-40M$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-xr829-40M\/description$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-common/modules.mk	/^define KernelPackage\/net-xr829\/description$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/EISE-ISE$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/EISE-ISE\/description$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/miscellaneous$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/miscellaneous\/description$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/sunxi-g2d$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/sunxi-g2d\/description$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/sunxi_nna_galcore$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/sunxi_nna_galcore\/description$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/vin-v4l2$/;"	m	language:Make
+KernelPackage	openwrt/target/v851s/v851s-lizard/modules.mk	/^define KernelPackage\/vin-v4l2\/description$/;"	m	language:Make
+LICHEE_ARCH	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_ARCH:=arm$/;"	m	language:Make
+LICHEE_ARCH	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_ARCH:=arm$/;"	m	language:Make
+LICHEE_ARCH	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_ARCH:=arm$/;"	m	language:Make
+LICHEE_BOARD	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_BOARD:=$/;"	m	language:Make
+LICHEE_BOARD	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_BOARD:=$/;"	m	language:Make
+LICHEE_BOARD	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_BOARD:=$/;"	m	language:Make
+LICHEE_BRANDY_DEFCONF	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_BRANDY_DEFCONF:=sun8iw21p1_defconfig$/;"	m	language:Make
+LICHEE_BRANDY_DEFCONF	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_BRANDY_DEFCONF:=sun8iw21p1_defconfig$/;"	m	language:Make
+LICHEE_BRANDY_DEFCONF	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_BRANDY_DEFCONF:=sun8iw21p1_defconfig$/;"	m	language:Make
+LICHEE_BRANDY_SPL	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_BRANDY_SPL:=spl$/;"	m	language:Make
+LICHEE_BRANDY_SPL	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_BRANDY_SPL:=spl$/;"	m	language:Make
+LICHEE_BRANDY_SPL	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_BRANDY_SPL:=spl$/;"	m	language:Make
+LICHEE_BRANDY_VER	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_BRANDY_VER:=2.0$/;"	m	language:Make
+LICHEE_BRANDY_VER	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_BRANDY_VER:=2.0$/;"	m	language:Make
+LICHEE_BRANDY_VER	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_BRANDY_VER:=2.0$/;"	m	language:Make
+LICHEE_BR_DEFCONF	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_BR_DEFCONF:=$/;"	m	language:Make
+LICHEE_BR_DEFCONF	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_BR_DEFCONF:=$/;"	m	language:Make
+LICHEE_BR_DEFCONF	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_BR_DEFCONF:=sun8iw21p1_longan_defconfig$/;"	m	language:Make
+LICHEE_BR_VER	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_BR_VER:=$/;"	m	language:Make
+LICHEE_BR_VER	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_BR_VER:=$/;"	m	language:Make
+LICHEE_BR_VER	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_BR_VER:=201902$/;"	m	language:Make
+LICHEE_BUILDING_SYSTEM	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_BUILDING_SYSTEM:=$/;"	m	language:Make
+LICHEE_BUILDING_SYSTEM	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_BUILDING_SYSTEM:=$/;"	m	language:Make
+LICHEE_BUILDING_SYSTEM	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_BUILDING_SYSTEM:=buildroot$/;"	m	language:Make
+LICHEE_CHIP	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_CHIP:=sun8iw21p1$/;"	m	language:Make
+LICHEE_CHIP	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_CHIP:=sun8iw21p1$/;"	m	language:Make
+LICHEE_CHIP	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_CHIP:=sun8iw21p1$/;"	m	language:Make
+LICHEE_COMPILER_TAR	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_COMPILER_TAR:=gcc-linaro-5.3.1-2016.05-x86_64_arm-linux-gnueabi.tar.xz$/;"	m	language:Make
+LICHEE_COMPILER_TAR	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_COMPILER_TAR:=gcc-linaro-5.3.1-2016.05-x86_64_arm-linux-gnueabi.tar.xz$/;"	m	language:Make
+LICHEE_COMPILER_TAR	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_COMPILER_TAR:=arm\/gcc-linaro-5.3.1-2016.05-x86_64_arm-linux-gnueabi.tar.xz$/;"	m	language:Make
+LICHEE_COMPRESS	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_COMPRESS:=gzip$/;"	m	language:Make
+LICHEE_COMPRESS	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_COMPRESS:=gzip$/;"	m	language:Make
+LICHEE_COMPRESS	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_COMPRESS:=gzip$/;"	m	language:Make
+LICHEE_FLASH	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_FLASH:=$/;"	m	language:Make
+LICHEE_FLASH	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_FLASH:=nor$/;"	m	language:Make
+LICHEE_FLASH	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_FLASH:=$/;"	m	language:Make
+LICHEE_KERN_DEFCONF	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_KERN_DEFCONF:=sun8iw21p1smp_defconfig$/;"	m	language:Make
+LICHEE_KERN_DEFCONF	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_KERN_DEFCONF:=sun8iw21p1smp_nor_defconfig$/;"	m	language:Make
+LICHEE_KERN_DEFCONF	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_KERN_DEFCONF:=config-4.9$/;"	m	language:Make
+LICHEE_KERN_VER	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_KERN_VER:=4.9$/;"	m	language:Make
+LICHEE_KERN_VER	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_KERN_VER:=4.9$/;"	m	language:Make
+LICHEE_KERN_VER	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_KERN_VER:=4.9$/;"	m	language:Make
+LICHEE_PRODUCT	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_PRODUCT:=$/;"	m	language:Make
+LICHEE_PRODUCT	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_PRODUCT:=$/;"	m	language:Make
+LICHEE_PRODUCT	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_PRODUCT:=$/;"	m	language:Make
+LICHEE_ROOTFS	device/config/chips/v851s/configs/default/BoardConfig.mk	/^LICHEE_ROOTFS:=target-arm-linaro-5.3.tar.bz2$/;"	m	language:Make
+LICHEE_ROOTFS	device/config/chips/v851s/configs/default/BoardConfig_nor.mk	/^LICHEE_ROOTFS:=target-arm-linaro-5.3.tar.bz2$/;"	m	language:Make
+LICHEE_ROOTFS	device/config/chips/v851s/configs/lizard/BoardConfig.mk	/^LICHEE_ROOTFS:=target-arm-linaro-5.3.tar.bz2$/;"	m	language:Make
+LOAD_ADDRESS	openwrt/target/v851s/generic/image/Makefile	/^LOAD_ADDRESS:=0x40008000$/;"	m	language:Make
+LOAD_ADDRESS	openwrt/target/v851s/generic/image/Makefile	/^LOAD_ADDRESS=0x40080000$/;"	m	language:Make
+LOAD_ADDRESS	openwrt/target/v851s/generic/image/Makefile	/^LOAD_ADDRESS=0x80008000$/;"	m	language:Make
+MAINTAINER	openwrt/target/v851s/v851s-lizard/Makefile	/^MAINTAINER:=Allwinner$/;"	m	language:Make
+MB	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	13;"	d	language:C	file:
+MICRON_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	18;"	d	language:C	file:
+MXIC_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	22;"	d	language:C	file:
+PRODUCT_AAPT_CONFIG	openwrt/target/v851s/v851s-lizard/v851s_lizard.mk	/^PRODUCT_AAPT_CONFIG := large xlarge hdpi xhdpi$/;"	m	language:Make
+PRODUCT_AAPT_PERF_CONFIG	openwrt/target/v851s/v851s-lizard/v851s_lizard.mk	/^PRODUCT_AAPT_PERF_CONFIG := xhdpi$/;"	m	language:Make
+PRODUCT_BRAND	openwrt/target/v851s/v851s-lizard/v851s_lizard.mk	/^PRODUCT_BRAND := YuzukiHD$/;"	m	language:Make
+PRODUCT_CHARACTERISTICS	openwrt/target/v851s/v851s-lizard/v851s_lizard.mk	/^PRODUCT_CHARACTERISTICS := musicbox$/;"	m	language:Make
+PRODUCT_DEVICE	openwrt/target/v851s/v851s-lizard/v851s_lizard.mk	/^PRODUCT_DEVICE := v851s-lizard$/;"	m	language:Make
+PRODUCT_MAKEFILES	openwrt/target/v851s/v851s-lizard/TinaProducts.mk	/^PRODUCT_MAKEFILES := \\$/;"	m	language:Make
+PRODUCT_MODEL	openwrt/target/v851s/v851s-lizard/v851s_lizard.mk	/^PRODUCT_MODEL := Allwinner v851s Yuzukilizard board$/;"	m	language:Make
+PRODUCT_NAME	openwrt/target/v851s/v851s-lizard/v851s_lizard.mk	/^PRODUCT_NAME := v851s_lizard$/;"	m	language:Make
+RAMDISK	openwrt/target/v851s/generic/image/Makefile	/^RAMDISK:=ramdisk.img$/;"	m	language:Make
+RAMDISK_OFFSET	openwrt/target/v851s/generic/image/Makefile	/^RAMDISK_OFFSET:=0x01000000$/;"	m	language:Make
+RAMDISK_OFFSET	openwrt/target/v851s/generic/image/Makefile	/^RAMDISK_OFFSET:=0x02000000$/;"	m	language:Make
+RECOVERY_INITRAMFS_BLOCKS	openwrt/target/v851s/generic/image/Makefile	/^	RECOVERY_INITRAMFS_BLOCKS=$(shell echo $$(($(CONFIG_SUNXI_RECOVERY_INITRAMFS_PARTSIZE)*1024*1024\/$(FAT32_BLOCK_SIZE))))$/;"	m	language:Make
+ROOTFS_IMAGE_NAME_SUFFIX	openwrt/target/v851s/generic/image/Makefile	/^	ROOTFS_IMAGE_NAME_SUFFIX=_ramfs$/;"	m	language:Make
+ROOTFS_IMAGE_NAME_SUFFIX	openwrt/target/v851s/generic/image/Makefile	/^	ROOTFS_IMAGE_NAME_SUFFIX=_recovery$/;"	m	language:Make
+ROOTFS_IMAGE_NAME_SUFFIX	openwrt/target/v851s/generic/image/Makefile	/^ROOTFS_IMAGE_NAME_SUFFIX:=$/;"	m	language:Make
+SPINAND_FACTORY_INFO	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	515;"	d	language:C	file:
+TARCH	openwrt/target/v851s/generic/image/Makefile	/^TARCH:=$(ARCH)$/;"	m	language:Make
+TARCH	openwrt/target/v851s/generic/image/Makefile	/^TARCH=arm64$/;"	m	language:Make
+TARGET_BOOT_IMG	openwrt/target/v851s/generic/image/Makefile	/^TARGET_BOOT_IMG:=boot${IMAGE_NAME_SUFFIX}.img$/;"	m	language:Make
+TARGET_BOOT_INITRAMFS_IMG	openwrt/target/v851s/generic/image/Makefile	/^TARGET_BOOT_INITRAMFS_IMG:=boot_initramfs${IMAGE_NAME_SUFFIX}.img$/;"	m	language:Make
+TARGET_BUILD	openwrt/target/v851s/Makefile	/^export TARGET_BUILD=1$/;"	m	language:Make
+TARGET_CPU_VARIANT	openwrt/target/v851s/generic/BoardRules_generic.mk	/^TARGET_CPU_VARIANT:=$(subst ",,$(word 1,$(subst +," ,$(CONFIG_CPU_TYPE))))$/;"	m	language:Make
+TARGET_DIR	openwrt/target/v851s/v851s-lizard/tina_busybox-init-base-files.mk	/^TARGET_DIR := $(CURDIR)\/busybox-init-base-files$/;"	m	language:Make
+TARGET_INIT_CMD	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_INIT_CMD :=$/;"	m	language:Make
+TARGET_INIT_ENV	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_INIT_ENV :=$/;"	m	language:Make
+TARGET_INIT_PATH	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_INIT_PATH :=$/;"	m	language:Make
+TARGET_INIT_SUPPRESS_STDERR	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_INIT_SUPPRESS_STDERR :=$/;"	m	language:Make
+TARGET_PREINIT_BROADCAST	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_PREINIT_BROADCAST :=$/;"	m	language:Make
+TARGET_PREINIT_IFNAME	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_PREINIT_IFNAME :=$/;"	m	language:Make
+TARGET_PREINIT_IP	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_PREINIT_IP :=$/;"	m	language:Make
+TARGET_PREINIT_NETMASK	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_PREINIT_NETMASK :=$/;"	m	language:Make
+TARGET_PREINIT_SHOW_NETMSG	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_PREINIT_SHOW_NETMSG :=$/;"	m	language:Make
+TARGET_PREINIT_SUPPRESS_FAILSAFE_NETMSG	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_PREINIT_SUPPRESS_FAILSAFE_NETMSG :=$/;"	m	language:Make
+TARGET_PREINIT_SUPPRESS_STDERR	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_PREINIT_SUPPRESS_STDERR :=$/;"	m	language:Make
+TARGET_PREINIT_TIMEOUT	openwrt/target/v851s/v851s-common/common.mk	/^TARGET_PREINIT_TIMEOUT :=$/;"	m	language:Make
+TARGET_ROOTFS_IMG	openwrt/target/v851s/generic/image/Makefile	/^TARGET_ROOTFS_IMG:=rootfs${ROOTFS_IMAGE_NAME_SUFFIX}.img$/;"	m	language:Make
+TARGET_USR_IMG	openwrt/target/v851s/generic/image/Makefile	/^TARGET_USR_IMG:=usr${ROOTFS_IMAGE_NAME_SUFFIX}.img$/;"	m	language:Make
+TOSHIBA_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	23;"	d	language:C	file:
+UBOOT_PATCHVER	openwrt/target/v851s/v851s-lizard/Makefile	/^UBOOT_PATCHVER:=2018$/;"	m	language:Make
+UIMAGE_NAME	openwrt/target/v851s/generic/image/Makefile	/^UIMAGE_NAME:=uImage$/;"	m	language:Make
+UIMAGE_NAME	openwrt/target/v851s/generic/image/Makefile	/^UIMAGE_NAME=uImage-initramfs$/;"	m	language:Make
+WINBOND_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	21;"	d	language:C	file:
+XTXTECH_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	25;"	d	language:C	file:
+ZETTA_MANUFACTURE	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	28;"	d	language:C	file:
+ato	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info ato[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+aw_spinand_chip_detect	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^int aw_spinand_chip_detect(struct aw_spinand_chip *chip)$/;"	f	language:C	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static struct aw_spinand_info aw_spinand_info = {$/;"	v	language:C	typeref:struct:aw_spinand_info	file:
+aw_spinand_info_block_size	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static unsigned int aw_spinand_info_block_size(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_die_cnt	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static unsigned int aw_spinand_info_die_cnt(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_init	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static int aw_spinand_info_init(struct aw_spinand_chip *chip,$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip, struct aw_spinand_phy_info *pinfo)
+aw_spinand_info_manufacture	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static const char *aw_spinand_info_manufacture(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_max_erase_times	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static int aw_spinand_info_max_erase_times(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_model	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static const char *aw_spinand_info_model(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_nandid	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static void aw_spinand_info_nandid(struct aw_spinand_chip *chip,$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip, unsigned char *id, int cnt)
+aw_spinand_info_oob_size	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static unsigned int aw_spinand_info_oob_size(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_operation_opt	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static int aw_spinand_info_operation_opt(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_page_size	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static unsigned int aw_spinand_info_page_size(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_phy_block_size	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static unsigned int aw_spinand_info_phy_block_size($/;"	f	language:C	file:	signature:( struct aw_spinand_chip *chip)
+aw_spinand_info_phy_oob_size	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static unsigned int aw_spinand_info_phy_oob_size(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_phy_page_size	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static unsigned int aw_spinand_info_phy_page_size(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_sector_size	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static unsigned int aw_spinand_info_sector_size(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+aw_spinand_info_total_size	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static unsigned int aw_spinand_info_total_size(struct aw_spinand_chip *chip)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip)
+cfw_p	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^cfw_p ()$/;"	f	language:Sh
+cfw_s	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^cfw_s ()$/;"	f	language:Sh
+cisp	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^cisp ()$/;"	f	language:Sh
+cleanall	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^function cleanall()$/;"	f	language:Sh
+cleanapp	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^function cleanapp$/;"	f	language:Sh
+cleanmpp	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^function cleanmpp()$/;"	f	language:Sh
+cmpp_p	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^cmpp_p ()$/;"	f	language:Sh
+cmpp_s	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^cmpp_s ()$/;"	f	language:Sh
+cnt	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^	unsigned int cnt;$/;"	m	language:C	struct:spinand_manufacture	file:
+common.mk_inc	openwrt/target/v851s/v851s-common/common.mk	/^__target\/linux\/generic\/common.mk_inc=1$/;"	m	language:Make
+copy_boot_file	device/config/chips/v851s/tools/plat_config.sh	/^copy_boot_file()$/;"	f	language:Sh
+dosilicon	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info dosilicon[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+etron	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info etron[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+fm	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info fm[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+foresee	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info foresee[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+gigadevice	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info gigadevice[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+id	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^	unsigned char id;$/;"	m	language:C	struct:spinand_manufacture	file:
+info	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^	struct aw_spinand_phy_info *info;$/;"	m	language:C	struct:spinand_manufacture	typeref:struct:spinand_manufacture::aw_spinand_phy_info	file:
+m	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct spinand_manufacture m;$/;"	v	language:C	typeref:struct:spinand_manufacture
+micron	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info micron[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+mkBootimg	openwrt/target/v851s/generic/image/Makefile	/^define mkBootimg$/;"	m	language:Make
+mkBootimg_without_ramdisk	openwrt/target/v851s/generic/image/Makefile	/^define mkBootimg_without_ramdisk$/;"	m	language:Make
+mkall	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^function mkall()$/;"	f	language:Sh
+mkapp	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^function mkapp$/;"	f	language:Sh
+mkfrmw	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^mkfrmw ()$/;"	f	language:Sh
+mkmpp	openwrt/target/v851s/v851s-lizard/v851s_lizard-setup.sh	/^function mkmpp$/;"	f	language:Sh
+mkuImage	openwrt/target/v851s/generic/image/Makefile	/^define mkuImage$/;"	m	language:Make
+mxic	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info mxic[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+name	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^	const char *name;$/;"	m	language:C	struct:spinand_manufacture	file:
+pr_fmt	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	3;"	d	language:C	file:
+spinand_detect_munufacture	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static struct spinand_manufacture *spinand_detect_munufacture(unsigned char id)$/;"	f	language:C	file:	signature:(unsigned char id)
+spinand_detect_munufacture_from_fdt	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static struct spinand_manufacture *spinand_detect_munufacture_from_fdt(struct aw_spinand_chip *chip, unsigned char id)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip, unsigned char id)
+spinand_factory	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static struct spinand_manufacture spinand_factory[] = {$/;"	v	language:C	typeref:struct:spinand_manufacture	file:
+spinand_get_chip_munufacture	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static int spinand_get_chip_munufacture(struct aw_spinand_chip *chip, const char **m)$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip, const char **m)
+spinand_get_phy_info_from_fdt	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info *spinand_get_phy_info_from_fdt(struct aw_spinand_chip *chip)$/;"	f	language:C	signature:(struct aw_spinand_chip *chip)
+spinand_manufacture	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct spinand_manufacture {$/;"	s	language:C	file:
+spinand_match_id	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static struct aw_spinand_phy_info *spinand_match_id($/;"	f	language:C	file:	signature:( struct spinand_manufacture *m, unsigned char *id)
+spinand_match_id_from_fdt	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^static struct aw_spinand_phy_info *spinand_match_id_from_fdt(struct aw_spinand_chip *chip,$/;"	f	language:C	file:	signature:(struct aw_spinand_chip *chip, struct spinand_manufacture *m, unsigned char *id)
+to_kb	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	14;"	d	language:C	file:
+to_mb	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	15;"	d	language:C	file:
+toshiba	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info toshiba[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+winbond	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info winbond[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+xtx	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info xtx[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
+zetta	kernel/linux-4.9/drivers/mtd/awnand/spinand/physic/id.c	/^struct aw_spinand_phy_info zetta[] = {$/;"	v	language:C	typeref:struct:aw_spinand_phy_info
